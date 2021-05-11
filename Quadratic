@@ -1,0 +1,25 @@
+
+The Standard Form of a Quadratic Equation looks like this:
+
+Quadratic Equation: ax^2 + bx + c = 0 
+
+a, b and c are known values. a can't be 0.
+Solving a quadratic equation require a formula that we are very much familiar with. 
+x == −b ± √(b^2 − 4ac) /2a
+
+But when we have to do programming in MATLAB we need to write the above equation in a more simplified waydwith proper notations.
+
+The Standard Form of a Quadratic Equation looks like this:-
+x1=(-b+sqrt(b^2-4*a*c))/(2*a)
+x2=(-b+sqrt(b^2-4*a*c))/(2*a)
+
+Coding in matlab
+>>a=3
+>>b=2
+>>c=-6
+>>x1=(-b+sqrt(b^2-4*a*c))/(2*a)
+x1=1.1196
+>>x2=(-b+sqrt(b^2-4*a*c))/(2*a)
+x2=-1.7863
+
+Thus the correct form of arithmetic operations play the important role. More than that proper use of bracketts
